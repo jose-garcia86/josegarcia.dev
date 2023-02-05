@@ -1,0 +1,23 @@
+{
+  "name": "josegarcia.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch assets/scss/main.scss assets/css/bundle.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-garcia86/josegarcia.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose-garcia86/josegarcia.dev/issues"
+  },
+  "homepage": "https://github.com/jose-garcia86/josegarcia.dev#readme",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}

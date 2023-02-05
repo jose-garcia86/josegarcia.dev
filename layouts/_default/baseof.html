@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="es">
+{{ partial "components/head.html" . }}
+<body>
+    {{ partial "components/header.html" . }}
+
+    {{ block "main" . }} {{ end }}
+
+    {{ partial "components/footer.html" . }}
+    {{ partial "components/scripts.html" . }}
+    {{ block "scripts" . }} {{ end }}
+</body>
+</html>
